@@ -1,0 +1,251 @@
+{
+ "trail": 1767,
+ "particles_per_trail": 10000,
+ "summary": {
+  "2001": {
+   "n": 4,
+   "zhr_mean": 1445.3325,
+   "zhr_sd": 1108.1321470346697,
+   "zhr_min": 20.58,
+   "zhr_max": 2442.04,
+   "spread_factor": 118.66083576287659,
+   "ratio_min": 0.012703703703703703,
+   "ratio_max": 1.5074320987654322,
+   "dr_mean_1e3": -0.615,
+   "dr_sd_1e3": 2.007598067343162,
+   "observed_zhr": 1620
+  },
+  "2002": {
+   "n": 4,
+   "zhr_mean": 2499.6675,
+   "zhr_sd": 570.239105953225,
+   "zhr_min": 2030.0,
+   "zhr_max": 3329.11,
+   "spread_factor": 1.6399556650246305,
+   "ratio_min": 0.8087649402390438,
+   "ratio_max": 1.3263386454183268,
+   "dr_mean_1e3": 0.07500000000000001,
+   "dr_sd_1e3": 0.09475582655787805,
+   "observed_zhr": 2510
+  }
+ },
+ "realisations": [
+  {
+   "trail": 1767,
+   "year": 2001,
+   "particles": 10000,
+   "age_years": 341.0,
+   "epoch": "2001-11-18",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 1126.01,
+   "ut": "11-18 10:25",
+   "rE_rD_1e3": 0.5670000000000001,
+   "sigma_r": 0.0005,
+   "n_sigma": 1.134,
+   "n_section": 44,
+   "f_m": 0.0996,
+   "resonant": false,
+   "r_pop": 1.309,
+   "wall_s": 5618.6,
+   "seed": 42,
+   "observed": {
+    "zhr": 1620,
+    "ut": "Nov 18 10:39"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2001,
+   "particles": 10000,
+   "age_years": 341.0,
+   "epoch": "2001-11-18",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 2442.04,
+   "ut": "11-18 10:10",
+   "rE_rD_1e3": 0.224,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.448,
+   "n_section": 57,
+   "f_m": 0.1459,
+   "resonant": false,
+   "r_pop": 1.348,
+   "wall_s": 5286.6,
+   "seed": 43,
+   "observed": {
+    "zhr": 1620,
+    "ut": "Nov 18 10:39"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2001,
+   "particles": 10000,
+   "age_years": 341.0,
+   "epoch": "2001-11-18",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 20.58,
+   "ut": "11-18 05:25",
+   "rE_rD_1e3": -3.6189999999999998,
+   "sigma_r": 0.0005,
+   "n_sigma": 7.2379999999999995,
+   "n_section": 63,
+   "f_m": 0.1655,
+   "resonant": false,
+   "r_pop": 1.349,
+   "wall_s": 5187.7,
+   "seed": 44,
+   "observed": {
+    "zhr": 1620,
+    "ut": "Nov 18 10:39"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2001,
+   "particles": 10000,
+   "age_years": 341.0,
+   "epoch": "2001-11-18",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 2192.7,
+   "ut": "11-18 10:40",
+   "rE_rD_1e3": 0.368,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.736,
+   "n_section": 58,
+   "f_m": 0.1442,
+   "resonant": false,
+   "r_pop": 1.354,
+   "wall_s": 5490.3,
+   "seed": 45,
+   "observed": {
+    "zhr": 1620,
+    "ut": "Nov 18 10:39"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2002,
+   "particles": 10000,
+   "age_years": 342.0,
+   "epoch": "2002-11-19",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 2030.0,
+   "ut": "11-19 04:35",
+   "rE_rD_1e3": 0.201,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.402,
+   "n_section": 56,
+   "f_m": 0.1097,
+   "resonant": false,
+   "r_pop": 1.434,
+   "wall_s": 5431.4,
+   "seed": 42,
+   "observed": {
+    "zhr": 2510,
+    "ut": "Nov 19 04:10"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2002,
+   "particles": 10000,
+   "age_years": 342.0,
+   "epoch": "2002-11-19",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 3329.11,
+   "ut": "11-19 04:50",
+   "rE_rD_1e3": 0.06499999999999999,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.12999999999999998,
+   "n_section": 77,
+   "f_m": 0.1753,
+   "resonant": false,
+   "r_pop": 1.418,
+   "wall_s": 5599.5,
+   "seed": 43,
+   "observed": {
+    "zhr": 2510,
+    "ut": "Nov 19 04:10"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2002,
+   "particles": 10000,
+   "age_years": 342.0,
+   "epoch": "2002-11-19",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 2286.34,
+   "ut": "11-19 04:50",
+   "rE_rD_1e3": -0.029,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.057999999999999996,
+   "n_section": 51,
+   "f_m": 0.1129,
+   "resonant": false,
+   "r_pop": 1.467,
+   "wall_s": 4503.6,
+   "seed": 44,
+   "observed": {
+    "zhr": 2510,
+    "ut": "Nov 19 04:10"
+   }
+  },
+  {
+   "trail": 1767,
+   "year": 2002,
+   "particles": 10000,
+   "age_years": 342.0,
+   "epoch": "2002-11-19",
+   "n_grains": 10000,
+   "labels": [
+    "1767"
+   ],
+   "vaubaillon": null,
+   "zhr": 2353.22,
+   "ut": "11-19 04:50",
+   "rE_rD_1e3": 0.063,
+   "sigma_r": 0.0005,
+   "n_sigma": 0.126,
+   "n_section": 68,
+   "f_m": 0.132,
+   "resonant": false,
+   "r_pop": 1.4,
+   "wall_s": 3888.7,
+   "seed": 45,
+   "observed": {
+    "zhr": 2510,
+    "ut": "Nov 19 04:10"
+   }
+  }
+ ],
+ "wall_s": 15183.1
+}

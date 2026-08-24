@@ -1,0 +1,2207 @@
+{
+ "title": "Leonid dust-trail simulations for the 2030s",
+ "description": "Result files behind the Leonid forecasts and hindcasts of Abe (2026). Data only: neither the model source code nor the viewer application is part of this release. The files are in the dataset format read by the Meteorium app.",
+ "version": "leonids-2030s-v1",
+ "model": {
+  "integrator": "REBOUND IAS15 with REBOUNDx radiation forces",
+  "units": "AU / day / GM (G=1), heliocentric ecliptic J2000",
+  "ejection": "Crifo & Rodionov (1997) gas-drag terminal velocity; grain sizes drawn from dN proportional to a^-u",
+  "beta_max": 0.003,
+  "beta_max_note": "BETA_VIS_MAX default; no per-run override was set (recorded as null in the dataset headers)",
+  "ejection_sites": "anchored to the JPL Horizons ephemeris of 55P for each apparition (see the paper, Sect. 2.2)",
+  "empirical_density_factor_sol_corr_old": 0.11
+ },
+ "layout": "Paths are relative to this file.  On Zenodo the same files are deposited flat, under the basename given as zenodo_name; the basenames are unique across the release.",
+ "files": [
+  {
+   "file": "data/LEO-epoch1998-forecast.json",
+   "zenodo_name": "LEO-epoch1998-forecast.json",
+   "bytes": 203952,
+   "sha256": "46567109e76d649afc971034eeb130ed3b34bf3ce88985d004ed8c41a806abca",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 100000,
+    "trails": [
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2451134.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    1998
+   ]
+  },
+  {
+   "file": "data/LEO-epoch1998.json",
+   "zenodo_name": "LEO-epoch1998.json",
+   "bytes": 8438206,
+   "sha256": "65400c2cd98efc2e55a4ee3d5188ed4a2fe83c9cf73ae1d60ed5879d2e5929f4",
+   "kind": "stream simulation",
+   "epoch_jd": 2451134.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 100000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0
+   }
+  },
+  {
+   "file": "data/LEO-epoch1999-forecast.json",
+   "zenodo_name": "LEO-epoch1999-forecast.json",
+   "bytes": 217609,
+   "sha256": "92843950ca8a2edfb56c848549a2a1110947627075c7d202acf331f98c00e4f7",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 100000,
+    "trails": [
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2451500.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    1999
+   ]
+  },
+  {
+   "file": "data/LEO-epoch1999.json",
+   "zenodo_name": "LEO-epoch1999.json",
+   "bytes": 8432837,
+   "sha256": "191bf980467c93813f3e6ba14c1cfaa26ad2564a20d28bc8e5553cb831a27ad9",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 100000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0
+   }
+  },
+  {
+   "file": "data/LEO-epoch2000-forecast.json",
+   "zenodo_name": "LEO-epoch2000-forecast.json",
+   "bytes": 300776,
+   "sha256": "238320e9ab93d98c3c0b3e24f65a27d1d9f3ef5266818e76c59650cdfe09a04c",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 100000,
+    "trails": [
+     "1699",
+     "1733",
+     "1767",
+     "1800",
+     "1833",
+     "1866",
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2451866.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    2000
+   ]
+  },
+  {
+   "file": "data/LEO-epoch2000.json",
+   "zenodo_name": "LEO-epoch2000.json",
+   "bytes": 8452052,
+   "sha256": "75dedaf62b0fda12a1cfcbfa6edca2ccd731a4e0b8be6a4975b38f1860305603",
+   "kind": "stream simulation",
+   "epoch_jd": 2451866.5,
+   "trails": [
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 100000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0
+   }
+  },
+  {
+   "file": "data/LEO-epoch2001-forecast.json",
+   "zenodo_name": "LEO-epoch2001-forecast.json",
+   "bytes": 302774,
+   "sha256": "7099cf386d56246093b44a01f286914b70b8445cd95a1fbf06cce4541abd5719",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 100000,
+    "trails": [
+     "1699",
+     "1733",
+     "1767",
+     "1800",
+     "1833",
+     "1866",
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2452231.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    2001
+   ]
+  },
+  {
+   "file": "data/LEO-epoch2001.json",
+   "zenodo_name": "LEO-epoch2001.json",
+   "bytes": 8447198,
+   "sha256": "8e71bf68bc2e753da29cee8901ab677121214d6d02ce1c4c9263a04920885c31",
+   "kind": "stream simulation",
+   "epoch_jd": 2452231.5,
+   "trails": [
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 100000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0
+   }
+  },
+  {
+   "file": "data/LEO-epoch2002-forecast.json",
+   "zenodo_name": "LEO-epoch2002-forecast.json",
+   "bytes": 284292,
+   "sha256": "26aa09aafde4ce6a8ab6e48c5149ccfc701e0317634c4134a5f9fdaace7c9353",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 100000,
+    "trails": [
+     "1699",
+     "1733",
+     "1767",
+     "1800",
+     "1833",
+     "1866",
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2452597.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    2002
+   ]
+  },
+  {
+   "file": "data/LEO-epoch2002.json",
+   "zenodo_name": "LEO-epoch2002.json",
+   "bytes": 8442442,
+   "sha256": "e02f04c20ead4d973c763e576df6cc4197dd98a16e1ac3e79bf205a735405aa1",
+   "kind": "stream simulation",
+   "epoch_jd": 2452597.5,
+   "trails": [
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 100000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/LEO-theory-epoch2009.json",
+   "zenodo_name": "LEO-theory-epoch2009.json",
+   "bytes": 14357180,
+   "sha256": "94cb07cd789464eab2cc246f759f95589ca69cfca6055d11f99ed912f8eeb116",
+   "kind": "stream simulation",
+   "epoch_jd": 2455152.5,
+   "trails": [
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 170000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/LEO-theory-forecast.json",
+   "zenodo_name": "LEO-theory-forecast.json",
+   "bytes": 2448601,
+   "sha256": "8ffc156a8eff9e5e7af4efcfc11464d2449de4c2eef553713b8050affb686780",
+   "kind": "forecast",
+   "dataset": {
+    "grains": 180000,
+    "trails": [
+     "1433",
+     "1466",
+     "1499",
+     "1532",
+     "1567",
+     "1600",
+     "1633",
+     "1666",
+     "1699",
+     "1733",
+     "1767",
+     "1800",
+     "1833",
+     "1866",
+     "1899",
+     "1932",
+     "1965",
+     "1998"
+    ],
+    "epoch_jd": 2461361.5,
+    "horizons_anchored": true,
+    "sol_corr_old": 0.11
+   },
+   "years": [
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+   ]
+  },
+  {
+   "file": "data/LEO-theory.json",
+   "zenodo_name": "LEO-theory.json",
+   "bytes": 15275695,
+   "sha256": "8dc2194c0d6fbf0e2f034d1b702077487e8dec7ee3f3d82cf7d33f637b2979cd",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 180000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0
+   }
+  },
+  {
+   "file": "data/calibration/LEO-real-42-8000.json",
+   "zenodo_name": "LEO-real-42-8000.json",
+   "bytes": 2699394,
+   "sha256": "17f35ae75d99a21eda6a95ffaa24e2f7ac2c2e00a2f2a9b535531276a55acd2d",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/calibration/LEO-real-43-8000.json",
+   "zenodo_name": "LEO-real-43-8000.json",
+   "bytes": 2699226,
+   "sha256": "544f92ec40ba8a5c1b3237ea126668fc564994891a3a16fdf7719ac0d434198d",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/calibration/LEO-real-44-8000.json",
+   "zenodo_name": "LEO-real-44-8000.json",
+   "bytes": 2699596,
+   "sha256": "9def315918233a8ea3c0dfe226b5704c84a85d809a42ac9ae3b26663e7932cc5",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/calibration/LEO-real-45-8000.json",
+   "zenodo_name": "LEO-real-45-8000.json",
+   "bytes": 2698815,
+   "sha256": "427a40bdc134f9513cc1614f974b5f4d62dfc2625cd3885008051b19813cfdad",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/calibration/LEO-theory-e1999hi.json",
+   "zenodo_name": "LEO-theory-e1999hi.json",
+   "bytes": 20308786,
+   "sha256": "0ca03d52f756b46793d3dc64ae4fa56ba6a40ff651aa385c7b48e13858cf1e3d",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 240000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/calibration/leo1999_convergence.json",
+   "zenodo_name": "leo1999_convergence.json",
+   "bytes": 3780,
+   "sha256": "e984d6caa99664f772a659e8e84df0a4874ce74b9329aa029136003736d39430",
+   "kind": "study result",
+   "experiment": "leo1999_convergence",
+   "measures": "grain-count convergence of the 1999 anchor"
+  },
+  {
+   "file": "data/calibration/leo1999_realizations.json",
+   "zenodo_name": "leo1999_realizations.json",
+   "bytes": 2520,
+   "sha256": "b02cd9fa1e16f27cc7460b7cfbfd564ce8d69266d0d7150bba3d10d75bb4b71a",
+   "kind": "study result",
+   "experiment": "leo1999_realizations",
+   "measures": "ejection-realisation spread of the 1999 anchor",
+   "config": {
+    "epoch_jd": 2451500.5,
+    "age_years": 145.0,
+    "n_returns": 4,
+    "particles": 8000,
+    "seeds": [
+     42,
+     43,
+     44,
+     45
+    ],
+    "anchored": true,
+    "target_trail": "1899",
+    "observed": {
+     "zhr": 3700.0,
+     "ut": "1999-11-18 02:02"
+    }
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov01.json",
+   "zenodo_name": "LEO-mc-cov01.json",
+   "bytes": 2709246,
+   "sha256": "1df8e47a9045fd8875a55f19575b43deda18f40e65f4cc41fe05d38e10a76844",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov02.json",
+   "zenodo_name": "LEO-mc-cov02.json",
+   "bytes": 2708824,
+   "sha256": "7c3bc29e394be7c594aae469433e205e32cda47b4d8bc5d9df2a52ead43f2ba8",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov03.json",
+   "zenodo_name": "LEO-mc-cov03.json",
+   "bytes": 2709832,
+   "sha256": "134bbda7ec54a87547b933f47c4fc8f0432681304d78ce9f344d0ea8a46efc17",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov04.json",
+   "zenodo_name": "LEO-mc-cov04.json",
+   "bytes": 2709556,
+   "sha256": "5b8feb62f56bd8cae3ff54556a388362aaa8f98ae665891db0362dd71e9d99da",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov05.json",
+   "zenodo_name": "LEO-mc-cov05.json",
+   "bytes": 2708678,
+   "sha256": "c8b7ce6e2585e98b92621365c91b6c47e7b8ffcc7f439de861429186df9a5a1f",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov06.json",
+   "zenodo_name": "LEO-mc-cov06.json",
+   "bytes": 2709368,
+   "sha256": "3aff29637a3f7927efd9176551bb38110c3fc8e51e2b278785958bcf89af434a",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov07.json",
+   "zenodo_name": "LEO-mc-cov07.json",
+   "bytes": 2709248,
+   "sha256": "cf2ab90ad566288e09b5737f8dce1eb1dcf851b769458731c5346293f4b87b84",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov08.json",
+   "zenodo_name": "LEO-mc-cov08.json",
+   "bytes": 2709212,
+   "sha256": "63fd1e417c20022f855695a05d748e8daebd4fa308dbeb8a223e84e3ea21f1ba",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov09.json",
+   "zenodo_name": "LEO-mc-cov09.json",
+   "bytes": 2709200,
+   "sha256": "426b463a78e576f61c64e4e63093a0740d1c3566eb638bb70f10c073748ead0f",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov10.json",
+   "zenodo_name": "LEO-mc-cov10.json",
+   "bytes": 2709396,
+   "sha256": "c8b54e61d7bd86d04399d8fd7cf8ae501b9289267e1f334094a98acc8f75d454",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov11.json",
+   "zenodo_name": "LEO-mc-cov11.json",
+   "bytes": 2709185,
+   "sha256": "4eec3213fb2232e3e6f42fcbb6f2b8b3921100013b750813f3e98c88c4c24dd8",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-cov12.json",
+   "zenodo_name": "LEO-mc-cov12.json",
+   "bytes": 2709210,
+   "sha256": "bd09bb1eae76c02d8630e6a52cf92743732f697e802dc615f0e345f1c00a3c49",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-nominal.json",
+   "zenodo_name": "LEO-mc-nominal.json",
+   "bytes": 2709574,
+   "sha256": "686d1a6ba3e7785a385736650a856912d0d6201337035e56892a2d5186ff0beb",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-seed01.json",
+   "zenodo_name": "LEO-mc-seed01.json",
+   "bytes": 2709397,
+   "sha256": "d3887b0fea34f23846a32698f38d2ec33d09643af01a835486d64da72fec5dbc",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-seed02.json",
+   "zenodo_name": "LEO-mc-seed02.json",
+   "bytes": 2709590,
+   "sha256": "0ee016d12b0e2fa84aff10ce6118c5535c972dc807888812d175da3eaa0129f2",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-seed03.json",
+   "zenodo_name": "LEO-mc-seed03.json",
+   "bytes": 2710079,
+   "sha256": "effc3f7eb43da0f74cd8f8091d0e4c7634305ae7538b26edeeb2df6f84e77386",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/LEO-mc-seed04.json",
+   "zenodo_name": "LEO-mc-seed04.json",
+   "bytes": 2709451,
+   "sha256": "916df22a3641355ac96b107e2d2af796b73026ce8c78d593a65da2bce5d5eafb",
+   "kind": "stream simulation",
+   "epoch_jd": 2451500.5,
+   "trails": [
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 32000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/covariance/leo1999_covariance_mc_hi.json",
+   "zenodo_name": "leo1999_covariance_mc_hi.json",
+   "bytes": 21430,
+   "sha256": "e15e007f3c4138e4116e31dcd1b7e14a17aef6d51e0efd23f16c5168fe520999",
+   "kind": "study result",
+   "experiment": "55P 8-D orbit-covariance Monte Carlo, 1999 Leonid encounter, pre-anchoring",
+   "measures": "8-dimensional orbit-covariance Monte Carlo of the 1999 encounter",
+   "config": {
+    "members": 12,
+    "controls": 4,
+    "particles_per_return": 4000,
+    "grains_per_member": 32000,
+    "age_years": 250.0,
+    "n_returns": 8,
+    "epoch_jd": 2451500.5,
+    "forecast_year": 1999,
+    "target_trail": "1899",
+    "horizons_anchored": false,
+    "ejection_seed": 42,
+    "draw_seed": 20260815,
+    "sigma_A1_model": 0.5,
+    "sigma_A2_model": 0.3,
+    "ephemeris": "builtin",
+    "covariance_labels": [
+     "e",
+     "q",
+     "tp",
+     "node",
+     "peri",
+     "i",
+     "A1",
+     "A2"
+    ],
+    "covariance_mean": {
+     "e": 0.905552720972412,
+     "q": 0.976427915467506,
+     "tp": 2450872.5977341123,
+     "node": 235.270989149082,
+     "peri": 172.5002736828059,
+     "i": 162.486575379434,
+     "A1": 1.580981480640338e-09,
+     "A2": 9.186415654543854e-11
+    },
+    "solution": "JPL SBDB J985/69 (data/parents.json)"
+   }
+  },
+  {
+   "file": "data/forecast/LEO-fc2030.json",
+   "zenodo_name": "LEO-fc2030.json",
+   "bytes": 38136197,
+   "sha256": "f21fa3303d9f4ad6e19ba3aa021402a1d532a9485f938f20bbed350d77f8a59d",
+   "kind": "stream simulation",
+   "epoch_jd": 2462823.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/forecast/LEO-fc2031.json",
+   "zenodo_name": "LEO-fc2031.json",
+   "bytes": 38130200,
+   "sha256": "e13476b490682f45d49ef31efe464159584ddbccd2c394e2616befdd995022aa",
+   "kind": "stream simulation",
+   "epoch_jd": 2463188.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/forecast/LEO-fc2032.json",
+   "zenodo_name": "LEO-fc2032.json",
+   "bytes": 38102523,
+   "sha256": "bfc58152d7833bb44868e3b782138b790d4b96505c47f13769b3d1d3f5e25097",
+   "kind": "stream simulation",
+   "epoch_jd": 2463553.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/forecast/LEO-fc2033.json",
+   "zenodo_name": "LEO-fc2033.json",
+   "bytes": 38066651,
+   "sha256": "89eed63c0493f645ce2ff1ac5279a32fc4347162d1320d0381532d29ce8b5b6c",
+   "kind": "stream simulation",
+   "epoch_jd": 2463919.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/forecast/LEO-fc2034.json",
+   "zenodo_name": "LEO-fc2034.json",
+   "bytes": 38044848,
+   "sha256": "6041603464df33ea4e6df061b8402d7620cc5b5caa239e631b501361757f2f5e",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/forecast/LEO-fc2035.json",
+   "zenodo_name": "LEO-fc2035.json",
+   "bytes": 38022775,
+   "sha256": "1fbdd000077d04a43549ac32899ec0331c2213ad7cefa0cd3f6a63423044b04b",
+   "kind": "stream simulation",
+   "epoch_jd": 2464650.5,
+   "trails": [
+    "1433",
+    "1466",
+    "1499",
+    "1532",
+    "1567",
+    "1600",
+    "1633",
+    "1666",
+    "1699",
+    "1733",
+    "1767",
+    "1800",
+    "1833",
+    "1866",
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "grains": 450000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "epoch_matched": true
+  },
+  {
+   "file": "data/index.json",
+   "zenodo_name": "index.json",
+   "bytes": 2326,
+   "sha256": "34ece0009cb55302ab0ec768e86d1215dea561dcfc21cf9523120eff7f672404",
+   "kind": "dataset index",
+   "datasets": [
+    "LEO-theory",
+    "LEO-theory-epoch2009",
+    "LEO-epoch1998",
+    "LEO-epoch1999",
+    "LEO-epoch2000",
+    "LEO-epoch2001",
+    "LEO-epoch2002"
+   ]
+  },
+  {
+   "file": "data/parents.json",
+   "zenodo_name": "parents.json",
+   "bytes": 7371,
+   "sha256": "fcf6e977bbfe63784e6b38f121f7429a35a71b630cc62e368951f38d50db133e",
+   "kind": "parent element sets",
+   "bodies": [
+    "109P",
+    "169P",
+    "1P",
+    "2003 EH1",
+    "21P",
+    "2P",
+    "3200",
+    "55P",
+    "73P-C",
+    "8P",
+    "96P",
+    "C/1861 G1"
+   ]
+  },
+  {
+   "file": "data/population/leo_population_index.json",
+   "zenodo_name": "leo_population_index.json",
+   "bytes": 92581,
+   "sha256": "327c14bf90de130e9ecf9fec8467931e6faa5b6f9a479031e64611c931dd0757",
+   "kind": "study result",
+   "experiment": "leo_population_index",
+   "measures": "population index and the limiting-magnitude conversion"
+  },
+  {
+   "file": "data/systematics/LEO-t1433-2030-25000.json",
+   "zenodo_name": "LEO-t1433-2030-25000.json",
+   "bytes": 2124721,
+   "sha256": "3de2698476f003f22c1ff4b027e102187e22bdab111981fff75a1e7d90c9917f",
+   "kind": "stream simulation",
+   "epoch_jd": 2462823.5,
+   "trails": [
+    "1433"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1433-2034-25000.json",
+   "zenodo_name": "LEO-t1433-2034-25000.json",
+   "bytes": 2124400,
+   "sha256": "5025eeb5e098078053e960091dc573c3f6c4fcad5bd3be83a9e9ebdd8661be58",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1433"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1433-ep20261117-25000.json",
+   "zenodo_name": "LEO-t1433-ep20261117-25000.json",
+   "bytes": 2124752,
+   "sha256": "011f70a66f5bf45f5a524960eb94583e310f37cf12081eaf19c66fc8f89648f1",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1433"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-2034-25000.json",
+   "zenodo_name": "LEO-t1633-2034-25000.json",
+   "bytes": 2106703,
+   "sha256": "63e88ee691b9c5f5ae8fb2eb24156d903c70e97026f6dbc90786e4d70af85a91",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-A-25000.json",
+   "zenodo_name": "LEO-t1633-A-25000.json",
+   "bytes": 2118596,
+   "sha256": "1c74727bf05beef3931b7085c6a226b3c8f64cce19e536298ad3cb706a50a73a",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-B-25000.json",
+   "zenodo_name": "LEO-t1633-B-25000.json",
+   "bytes": 2106703,
+   "sha256": "63e88ee691b9c5f5ae8fb2eb24156d903c70e97026f6dbc90786e4d70af85a91",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-ep20261117-25000.json",
+   "zenodo_name": "LEO-t1633-ep20261117-25000.json",
+   "bytes": 2118579,
+   "sha256": "cfac347aaae5988b1d5865a15c4e83a87a056fb31a1ebaade8d9f1137df7cdb2",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-frozen-from-2026.json",
+   "zenodo_name": "LEO-t1633-frozen-from-2026.json",
+   "bytes": 2118382,
+   "sha256": "216ef9d6b3880925a7d94065b3c6ca7514e32a2cc07e6a0725d953150c51b20e",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1633-nbody-to-2034.json",
+   "zenodo_name": "LEO-t1633-nbody-to-2034.json",
+   "bytes": 2106706,
+   "sha256": "7eb59a96fe74285e953a0b53069f3acb6024ba71caeb91421f80b62e275a782f",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1633"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-2034-25000.json",
+   "zenodo_name": "LEO-t1666-2034-25000.json",
+   "bytes": 2104141,
+   "sha256": "5b35f6b2f3144069dd48230e5a62bf7e0514f3c10eed72ca5003431bb5cec480",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-A-25000.json",
+   "zenodo_name": "LEO-t1666-A-25000.json",
+   "bytes": 2118083,
+   "sha256": "1f67d12b43df0f72995538a2815e58d2680eed3e9ce941e126cc29e5668e5db5",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-B-25000.json",
+   "zenodo_name": "LEO-t1666-B-25000.json",
+   "bytes": 2104141,
+   "sha256": "5b35f6b2f3144069dd48230e5a62bf7e0514f3c10eed72ca5003431bb5cec480",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-ep20261117-25000.json",
+   "zenodo_name": "LEO-t1666-ep20261117-25000.json",
+   "bytes": 2118079,
+   "sha256": "edf4f2d66475222ba2974d922767e0eb179f0615a6b7e063f468301d2ea58263",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-frozen-from-2026.json",
+   "zenodo_name": "LEO-t1666-frozen-from-2026.json",
+   "bytes": 2118875,
+   "sha256": "f3992c80add8c2cee8d86904c54a8b9a249c81965c87d7feb5f3bdf2ffe72b17",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1666-nbody-to-2034.json",
+   "zenodo_name": "LEO-t1666-nbody-to-2034.json",
+   "bytes": 2104148,
+   "sha256": "1ae42e3f9f9bd5c2ca7e38cef1785bacb88a0966d710342e4b3ec32d770102ac",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1666"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-2034-25000.json",
+   "zenodo_name": "LEO-t1699-2034-25000.json",
+   "bytes": 2104919,
+   "sha256": "2fef0788fbb551384c6ffdfd3e9562581fb863d632294a8006edb423048ddad1",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-A-25000.json",
+   "zenodo_name": "LEO-t1699-A-25000.json",
+   "bytes": 2124726,
+   "sha256": "dab9e15f26c401d5e2335cbedfda4010f0a653da9feccc8e6589b95610486daa",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-B-25000.json",
+   "zenodo_name": "LEO-t1699-B-25000.json",
+   "bytes": 2104919,
+   "sha256": "2fef0788fbb551384c6ffdfd3e9562581fb863d632294a8006edb423048ddad1",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-ep20261117-25000.json",
+   "zenodo_name": "LEO-t1699-ep20261117-25000.json",
+   "bytes": 2124718,
+   "sha256": "0f912dd10913a1602fba1a4eeed93c7287220f981e3ec1606e6c0159e5d779eb",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-frozen-from-2026.json",
+   "zenodo_name": "LEO-t1699-frozen-from-2026.json",
+   "bytes": 2124855,
+   "sha256": "b5ccfbb27243904d51230955c2f70e8906b43189f472b8b709ec14c5ddb06266",
+   "kind": "stream simulation",
+   "epoch_jd": 2461361.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1699-nbody-to-2034.json",
+   "zenodo_name": "LEO-t1699-nbody-to-2034.json",
+   "bytes": 2104932,
+   "sha256": "48eed571420d0d1de7ca90541a94f10054b4d8fe41b7efddf51e3868709211a2",
+   "kind": "stream simulation",
+   "epoch_jd": 2464285.5,
+   "trails": [
+    "1699"
+   ],
+   "grains": 25000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2001-s42-10000.json",
+   "zenodo_name": "LEO-t1767-2001-s42-10000.json",
+   "bytes": 850252,
+   "sha256": "2474ac8c799e023061db2691c1f84c79e1bb2bdb336e691499a3c089f1b7bccf",
+   "kind": "stream simulation",
+   "epoch_jd": 2452231.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2001-s43-10000.json",
+   "zenodo_name": "LEO-t1767-2001-s43-10000.json",
+   "bytes": 849852,
+   "sha256": "98a5e4aef2195ecf978a40de8c028df3335b62a2cd4d3bf8f96f0d72db7e01a8",
+   "kind": "stream simulation",
+   "epoch_jd": 2452231.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2001-s44-10000.json",
+   "zenodo_name": "LEO-t1767-2001-s44-10000.json",
+   "bytes": 849900,
+   "sha256": "36c963da851ed1785ca3e9953b1b3958343152e073b7fe673806f6cc062c94cd",
+   "kind": "stream simulation",
+   "epoch_jd": 2452231.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": false,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2001-s45-10000.json",
+   "zenodo_name": "LEO-t1767-2001-s45-10000.json",
+   "bytes": 849920,
+   "sha256": "6fa287a0334925b019117bd22b0524b14dff2a64d7f49cd98f04651a30d2eac9",
+   "kind": "stream simulation",
+   "epoch_jd": 2452231.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2002-s42-10000.json",
+   "zenodo_name": "LEO-t1767-2002-s42-10000.json",
+   "bytes": 849540,
+   "sha256": "e944029bbb76274fc0094e94118637b57781bde2aa1d2f5c0b7b029b9dec8ec5",
+   "kind": "stream simulation",
+   "epoch_jd": 2452597.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2002-s43-10000.json",
+   "zenodo_name": "LEO-t1767-2002-s43-10000.json",
+   "bytes": 849550,
+   "sha256": "80159913f7d43f0808b2b79c9f26aa920982d833c296051459ae93ae2896cdad",
+   "kind": "stream simulation",
+   "epoch_jd": 2452597.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2002-s44-10000.json",
+   "zenodo_name": "LEO-t1767-2002-s44-10000.json",
+   "bytes": 849487,
+   "sha256": "8ff81b7493a762e089ef361351cd408c386ec698ab08df8580c30365ad879789",
+   "kind": "stream simulation",
+   "epoch_jd": 2452597.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/LEO-t1767-2002-s45-10000.json",
+   "zenodo_name": "LEO-t1767-2002-s45-10000.json",
+   "bytes": 849538,
+   "sha256": "8b7bfb721abfd94b82085972693175a51361eb08e98bcf6b24c086b1bdb27b98",
+   "kind": "stream simulation",
+   "epoch_jd": 2452597.5,
+   "trails": [
+    "1767"
+   ],
+   "grains": 10000,
+   "horizons_anchored": true,
+   "sol_corr_old": 0.11,
+   "nongrav": true,
+   "ejection": {
+    "model": "cr97",
+    "rho": 400.0,
+    "u_index": 3.5,
+    "n_prod": 5.0,
+    "r_nucleus_km": 1.8,
+    "a_crit_um": 0.5,
+    "k_vej": 1.0,
+    "beta_max": null
+   }
+  },
+  {
+   "file": "data/systematics/leo_anchor_realizations.json",
+   "zenodo_name": "leo_anchor_realizations.json",
+   "bytes": 4705,
+   "sha256": "6758d8f62c7ca9031ddf1d9050d3598335fdc2e2a63e2b46a569a5fdbc9f6afd",
+   "kind": "study result",
+   "experiment": "leo_anchor_realizations",
+   "measures": "ejection-realisation spread of the 1767 trail in the 2001 and 2002 hindcasts"
+  },
+  {
+   "file": "data/systematics/leo_epoch_control.json",
+   "zenodo_name": "leo_epoch_control.json",
+   "bytes": 3670,
+   "sha256": "ceec6f4406353b0d2ad2cf1e2ea4466cf6a8581aac77ffca1b9c99e12b0634dc",
+   "kind": "study result",
+   "experiment": "leo_epoch_control",
+   "measures": "the same trails propagated with frozen elements from the 2026-11-17 snapshot, the control"
+  },
+  {
+   "file": "data/systematics/leo_frozen_element_forces.json",
+   "zenodo_name": "leo_frozen_element_forces.json",
+   "bytes": 6027,
+   "sha256": "be9399de9d7ea1883c0a53ee52881aa6d6fb5a3762520bdb22a608eb168d20c4",
+   "kind": "study result",
+   "experiment": "leo_frozen_element_forces",
+   "measures": "which forces account for the node motion omitted between the 2030 and 2034 snapshots"
+  },
+  {
+   "file": "data/systematics/leo_frozen_element_test.json",
+   "zenodo_name": "leo_frozen_element_test.json",
+   "bytes": 1756,
+   "sha256": "d3d649415e08a3cae0a55eff9a66752635c4ae35d24c5e33d8338633dd3eadc0",
+   "kind": "study result",
+   "experiment": "leo_frozen_element_test",
+   "measures": "frozen-element against N-body propagation to the 2034 encounter, one integration per trail"
+  },
+  {
+   "file": "data/systematics/leo_old_trails.json",
+   "zenodo_name": "leo_old_trails.json",
+   "bytes": 2259,
+   "sha256": "72d155a8db61fb29ef85c618e7cadef1f8361d169ea42cd74475c952a1613e0d",
+   "kind": "study result",
+   "experiment": "leo_old_trails",
+   "measures": "the oldest trails evaluated from datasets snapshotted at each encounter year"
+  }
+ ]
+}

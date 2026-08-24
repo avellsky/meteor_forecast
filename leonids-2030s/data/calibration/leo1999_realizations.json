@@ -1,0 +1,132 @@
+{
+ "config": {
+  "epoch_jd": 2451500.5,
+  "age_years": 145.0,
+  "n_returns": 4,
+  "particles": 8000,
+  "seeds": [
+   42,
+   43,
+   44,
+   45
+  ],
+  "anchored": true,
+  "target_trail": "1899",
+  "observed": {
+   "zhr": 3700.0,
+   "ut": "1999-11-18 02:02"
+  }
+ },
+ "summary": {
+  "n": 4,
+  "zhr_mean": 4033.2575,
+  "zhr_sd": 808.4684149416929,
+  "zhr_min": 3495.03,
+  "zhr_max": 5236.09,
+  "zhr_spread_factor": 1.498153091675894,
+  "zhr_rel_sd": 0.2004504832487618,
+  "f_m_mean": 0.464325,
+  "f_m_sd": 0.04035173478303008,
+  "dr_mean_au": 0.0008435,
+  "dr_sd_au": 7.152388878316576e-05,
+  "observed_zhr": 3700.0,
+  "ratio_mean": 1.0900695945945946,
+  "ratio_min": 0.9446027027027027,
+  "ratio_max": 1.4151594594594594
+ },
+ "realisations": [
+  {
+   "seed": 42,
+   "particles_per_return": 8000,
+   "anchored": true,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "zhr": 3742.9,
+   "ut": "1999-11-18 03:08",
+   "f_m": 0.4493,
+   "dr_au": 0.000742,
+   "n_section": 150,
+   "r_pop": 1.452,
+   "ratio": 1.0115945945945946,
+   "sol_grain_median": 235.50201600000003,
+   "n_grains": 8000,
+   "zhr_sum": 4179.68,
+   "ut_sum": "1999-11-18 03:08",
+   "wall_s": 1744.3
+  },
+  {
+   "seed": 43,
+   "particles_per_return": 8000,
+   "anchored": true,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "zhr": 5236.09,
+   "ut": "1999-11-18 03:08",
+   "f_m": 0.5244,
+   "dr_au": 0.000852,
+   "n_section": 181,
+   "r_pop": 1.527,
+   "ratio": 1.4151594594594594,
+   "sol_grain_median": 235.503021,
+   "n_grains": 8000,
+   "zhr_sum": 5718.83,
+   "ut_sum": "1999-11-18 02:53",
+   "wall_s": 1809.5
+  },
+  {
+   "seed": 44,
+   "particles_per_return": 8000,
+   "anchored": true,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "zhr": 3659.01,
+   "ut": "1999-11-18 03:23",
+   "f_m": 0.4376,
+   "dr_au": 0.000872,
+   "n_section": 154,
+   "r_pop": 1.506,
+   "ratio": 0.9889216216216217,
+   "sol_grain_median": 235.5078745,
+   "n_grains": 8000,
+   "zhr_sum": 4149.37,
+   "ut_sum": "1999-11-18 03:08",
+   "wall_s": 1728.1
+  },
+  {
+   "seed": 45,
+   "particles_per_return": 8000,
+   "anchored": true,
+   "trails": [
+    "1899",
+    "1932",
+    "1965",
+    "1998"
+   ],
+   "zhr": 3495.03,
+   "ut": "1999-11-18 03:08",
+   "f_m": 0.446,
+   "dr_au": 0.000908,
+   "n_section": 146,
+   "r_pop": 1.595,
+   "ratio": 0.9446027027027027,
+   "sol_grain_median": 235.485875,
+   "n_grains": 8000,
+   "zhr_sum": 4401.51,
+   "ut_sum": "1999-11-18 02:53",
+   "wall_s": 1786.5
+  }
+ ],
+ "wall_s": 1810.8
+}

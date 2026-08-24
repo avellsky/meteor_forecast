@@ -1,0 +1,90 @@
+{
+ "datasets": [
+  {
+   "id": "LEO-theory",
+   "file": "LEO-theory.json",
+   "name": "Leonids — dust trails (theory)",
+   "name_ja": "しし座流星群 ダストトレイル(理論)(hi2030s)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 180000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-theory-epoch2009",
+   "file": "LEO-theory-epoch2009.json",
+   "name": "Leonids — dust trails (theory) [epoch2009]",
+   "name_ja": "しし座流星群 ダストトレイル(理論)(epoch2009)",
+   "kind": "theory",
+   "shower": {
+    "code": "LEO",
+    "name": "Leonids",
+    "name_ja": "しし座流星群",
+    "parent": "55P/Tempel-Tuttle",
+    "activity": "Nov 6 – Nov 30",
+    "peak": "Nov 17",
+    "peak_sol": 235.27,
+    "zhr": 15,
+    "vg": 70.7,
+    "v_inf": 71,
+    "r": 2.5,
+    "radiant": {
+     "ra": 152.0,
+     "dec": 22.0
+    }
+   },
+   "n": 170000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-epoch1998",
+   "file": "LEO-epoch1998.json",
+   "name": "Leonids — 1998 epoch-matched dataset (100,000 grains)",
+   "name_ja": "しし座流星群 1998年元期(嵐再現・100,000粒子)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 100000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-epoch1999",
+   "file": "LEO-epoch1999.json",
+   "name": "Leonids — 1999 epoch-matched dataset (100,000 grains)",
+   "name_ja": "しし座流星群 1999年元期(嵐再現・100,000粒子)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 100000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-epoch2000",
+   "file": "LEO-epoch2000.json",
+   "name": "Leonids — 2000 epoch-matched dataset (100,000 grains)",
+   "name_ja": "しし座流星群 2000年元期(嵐再現・100,000粒子)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 100000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-epoch2001",
+   "file": "LEO-epoch2001.json",
+   "name": "Leonids — 2001 epoch-matched dataset (100,000 grains)",
+   "name_ja": "しし座流星群 2001年元期(嵐再現・100,000粒子)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 100000,
+   "mdc": false
+  },
+  {
+   "id": "LEO-epoch2002",
+   "file": "LEO-epoch2002.json",
+   "name": "Leonids — 2002 epoch-matched dataset (100,000 grains)",
+   "name_ja": "しし座流星群 2002年元期(嵐再現・100,000粒子)",
+   "kind": "theory",
+   "shower": "LEO",
+   "n": 100000,
+   "mdc": false
+  }
+ ]
+}
